@@ -161,9 +161,21 @@ main {
   font-size: 1.125rem;
   font-weight: bold;
   padding-bottom: 10px;
+  position: relative;
 }
 
-#experiencias .minhas-experiencias .projeto-descricao p {
+/*.empresa::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background-color: linear-gradient(#8B9469, #364822);
+  top: 20px;
+  left: -4px;
+  position: absolute;
+}*/
+
+#experiencias .minhas-experiencias .projeto-descricao .empresa-definicao {
   font-size: 14px;
   line-height: 1.125;
   color: #525252;
@@ -286,10 +298,19 @@ main {
   text-transform: uppercase;
   margin-top: 30px;
   margin-bottom: 15px;
-  display: absolute;
+  display: relative;
 }
 
-.cursos h2::before{}
+/*.cursos h2::before{
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background-color: linear-gradient(#8B9469, #364822);
+  position: absolute;
+  top: 20px;
+  left: -4px;
+}*/
 
 .cursos h3{
   font-size: 1.125rem;
@@ -303,6 +324,56 @@ main {
   color: #8F8F8F;
   text-align: end;
   align-self: center;
+}
+
+#contato{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 2.5rem 7.5rem;
+  justify-items: center;
+  background-color: #000;
+}
+
+.contato-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6.25rem;
+  margin-top: 80px;
+}
+
+.contato-container p{
+  color: #CCCCCC;
+  max-width: 40ch;
+}
+
+.meus-contatos a{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #DBDBCD;
+  font-weight: bold;
+}
+
+.redes-sociais{
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+}
+
+footer{
+  background-color: #000;
+}
+
+footer p{
+  padding: 30px 0px;
+  color: #8F8F8F;
+  text-align: center;
 }
 
 
