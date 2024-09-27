@@ -92,6 +92,7 @@ main {
   grid-template-columns: 1fr 2fr;
   gap: 6.25rem;
   align-items: center;
+  margin-top: 80px;
 }
 
 #principal img {
@@ -114,7 +115,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 6.25rem;
-  margin-top: 2.5rem;
+  margin-top: 80px;
 }
 
 #experiencias h1 {
@@ -192,15 +193,24 @@ main {
   border-radius: 4px;
 }
 
-#formacao {
-  width: 100%;
+#formacao{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 2.5rem 7.5rem;
+  justify-items: center;
+  background-color: var(--bg-cor-escura);
+}
+
+.formacao-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 6.25rem;
-  margin-top: 2.5rem;
-  background-color: var(--bg-cor-escura);
-  padding-top: 120px;
+  margin-top: 80px;
 }
+
 
 #formacao h1 {
   font-family: var(--fonte-titulos-principais);
@@ -215,12 +225,13 @@ main {
   font-size: 1rem;
   line-height: 1.5;
   max-width: 500px;
-  margin-bottom: 60px;
 }
 
 .minhas-formacoes{
-    grid-template-columns: 2/3;
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 60px;
 }
 
 .minhas-formacoes .quadro-formacao {
@@ -228,4 +239,70 @@ main {
     padding: 20px;
     border: 1px solid #041804;
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    width: 150px;
+    height: 160px;
+
 }
+
+.formacao-tipo{
+  color: var(--cor-texto-paragrafo-claro);
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.formacao-curso{
+  flex: 1;
+  color: var(--cor-texto-paragrafo-claro);
+  font-size: 1.125rem;
+  line-height: 1.2;
+}
+
+.formacao-instituicao{
+  color: var(--cor-texto-paragrafo-claro);
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0;
+}
+
+.cursos{
+  margin-top: 50px
+}
+
+.cursos ul li{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.cursos h2{
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #8F8F8F;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  display: absolute;
+}
+
+.cursos h2::before{}
+
+.cursos h3{
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--cor-titulo-claro);
+  padding: 10px 0px;
+}
+
+.cursos ul li p{
+  font-size: 0.5rem;
+  color: #8F8F8F;
+  text-align: end;
+  align-self: center;
+}
+
+
