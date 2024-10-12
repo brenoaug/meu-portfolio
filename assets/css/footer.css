@@ -1,0 +1,57 @@
+#contato{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 2.5rem 7.5rem;
+  justify-items: center;
+  background-color: #000;
+}
+
+.contato-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6.25rem;
+  margin-top: 80px;
+
+}
+
+.contato-container p{
+  color: #CCCCCC;
+  max-width: 40ch;
+}
+
+.meus-contatos a{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #DBDBCD;
+  font-weight: bold;
+}
+
+.redes-sociais{
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+}
+
+footer{
+  background-color: #000;
+}
+
+.direitos {
+  padding: 30px 120px;
+  color: #7a7a7a;
+  font-size: 0.875rem;
+}
+
+.detalhe-footer{
+  position: relative;
+  left: 80px;
+  top: -20px;
+}
+

@@ -1,0 +1,35 @@
+:root {
+  --bg-cor-clara: #f5f5ea;
+  --bg-cor-escura: #141414;
+  --bg-header-footer: #020202;
+  --cor-texto-paragrafo-escuro: #17220a;
+  --cor-texto-paragrafo-claro: #a3a3a3;
+  --cor-texto-header-footer: #ccc;
+  --cor-titulo-claro: #dbdbcd;
+  --cor-titulo-escuro: #000;
+  --fonte-titulos-principais: "Zilla Slab Highlight", sans-serif;
+  --fonte-secundaria: "Fira Sans", "Arial", sans-serif;
+}
+
+body {
+  background-color: var(--bg-cor-clara);
+  margin: 0px;
+  font-family: var(--fonte-secundaria);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}

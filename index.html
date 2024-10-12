@@ -2,138 +2,176 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@400;700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zilla+Slab+Highlight:wght@400;700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <title>Desenvolvedor</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@400;700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zilla+Slab+Highlight:wght@400;700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="icon" href="./assets/img/detail.svg">
+  <title>Breno Augusto_</title>
 </head>
 
 <body>
-    <header>
-        <img id="logo" src="/img/logo.svg" alt="Logo">
-        <nav>
-            <ul>
-                <li><a href="#experiencias">Experiência</a></li>
-                <li><a href="#formacao">Formação</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <div class="header-container">
+      <figure id="logo">
+        <img src="/assets/img/logo.svg" alt="Logo da página" height="40">
+      </figure>
+      <nav>
+        <ul>
+          <li><a href="#experiencia">Projetos</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <main>
-        <section id="principal">
-            <img id="foto-perfil" src="/img/img-perfil.png" alt="Foto de perfil">
-            <div>
-                <img id="detalhe" src="./img/detail.svg">
-                <h1>Desenvolvedor<br>Front-End_</h1>
-                <p>Localizado em São Luís</p>
-            </div>
-        </section>
-        <section id="experiencias">
-            <h1>Experiência_</h1>
-            <div>
-                <p>Desenvolvo pequenos projetos como o Bikcraft utilizando apenas HTML, CSS e JavaScript. Para aplicativos web como a rede social Dogs eu trabalhei no UX e UI Design do projeto.</p>
-                <div class="minhas-experiencias">
-                    <span class="ano">2024</span>
-                    <div class="projeto-descricao">
-                        <h2 class="empresa">Bikcraft</h2>
-                        <p class="empresa-definicao">Desenvolvo pequenos projetos como o Bikcraft utilizando apenas HTML, CSS e JavaScript. Para aplicativos web como a rede social Dogs.</p>
-                    </div>
-                    <div class="cargos-tecnologias">
-                        <h2 class="cargo">Desenvolvedor Junior</h2>
-                        <span class="tecnologias">html</span>
-                        <span class="tecnologias">css</span>
-                        <span class="tecnologias">javascript</span>
-                        <span class="tecnologias">UX Design</span>
-                        <span class="tecnologias">UI Design</span>
-                    </div>
-                </div>
-                <div class="minhas-experiencias">
-                    <span class="ano">2023</span>
-                    <div class="projeto-descricao">
-                        <h2 class="empresa">Dogs</h2>
-                        <p class="empresa-definicao">Desenvolvo pequenos projetos como o Bikcraft utilizando apenas HTML, CSS e JavaScript. Para aplicativos web como a rede social Dogs.</p>
-                    </div>
-                    <div class="cargos-tecnologias">
-                        <h2 class="cargo">UX/UI Designer</h2>
-                        <span class="tecnologias">html</span>
-                        <span class="tecnologias">css</span>
-                        <span class="tecnologias">javascript</span>
-                        <span class="tecnologias">UX Design</span>
-                        <span class="tecnologias">UI Design</span>
-                    </div>
-        </section>
-    </main>
-
-    <section id="formacao">
-        <article class="formacao-container">
-            <h1>Formação_</h1>
-            <div>
-                <p>Minha mais recente experiência acadêmica está sendo o curso de Analise e Desenvolvimento de Sistemas pela Faculdade Descomplica. Além disso me mantenho sempre atualizado com cursos intensivos online.</p>
-
-                <div class="minhas-formacoes">
-                    <div class="quadro-formacao">
-                        <h3 class="formacao-tipo">Bacharel</h3>
-                        <h2 class="formacao-curso">Odontologia</h2>
-                        <p class="formacao-instituicao">UFMA</p>
-                    </div>
-                    <div class="quadro-formacao">
-                        <h3 class="formacao-tipo">Técnologo</h3>
-                        <h2 class="formacao-curso">Análise e Desenvolvimento de Sistemas</h2>
-                        <p class="formacao-instituicao">UniDesco</p>
-                    </div>
-                </div>
-                <div class="cursos">
-                    <h2>Cursos intensivos</h2>
-                    <ul>
-                        <li>
-                            <h3>Front-End para Iniciantes</h3>
-                            <p>Origamid</p>
-                        </li>
-                        <li>
-                            <h3>UX/UI Design</h3>
-                            <p>Origamid</p>
-                        </li>
-                    </ul>
-                    <h2>Idiomas</h2>
-                    <ul>
-                        <li>
-                            <h3>Inglês</h3>
-                            <p>Básico</p>
-                        </li>
-                        <li>
-                            <h3>Espanhol</h3>
-                            <p>Básico</p>
-                        </li>
-                    </ul>
-                </div>
-        </article>
+  <main>
+    <section id="principal">
+      <figure id="foto-perfil">
+        <img src="./assets/img/img-perfil.png" alt="Foto de perfil" width="320">
+      </figure>
+      <div>
+        <img class="detalhe" src="./assets/img/detail.svg">
+        <h1>Olá, eu sou <br>Breno Augusto_</h1>
+        <p>Moro em São Luís, Maranhão</p>
+      </div>
     </section>
+  </main>
 
-    <section id="contato">
-        <article class="contato-container">
-            <p>Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa 👋</p>
-            <div class="meus-contatos">
-                <a href="#">breaugustocp@outlook.com</a>
-                <a href="#">(98) 9 98728-8497</a>
+  <section id="experiencia">
+    <article class="experiencia-container">
+      <h1>Projetos_</h1>
+      <div>
+        <p>Já Desenvolvi pequenos projetos utilizando HTML, CSS e JavaScript. Estou sempre em busca de mais conhecimentos e colocando em prática o que aprendo, afim de fixar os conhecimentos e demonstrar minhas capacidades.</p>
+        <div class="minhas-experiencias">
+          <span class="ano">2024</span>
+          <div class="projeto-descricao">
+            <h2 class="empresa">Bikcraft</h2>
+            <p class="empresa-definicao">Um pequenos projeto, de uma loja de Bicicletas, desenvolvido com o objetivo de colocar em prática os conhecimentos aprendidos no curso de Front-End da Origamid, projeto utilizou HTML, CSS e JavaScript.
+              <br>
+              <a href="https://brenoaug.github.io/bikcraft-origamid/" target="_blank" rel="noopener noreferrer">Ver Projeto</a>
 
-                <div class="redes-sociais">
-                    <a href="#"><img src="/img/icon-instagram.svg" alt="instagram"></a>
-                    <a href="#"><img src="/img/icon-linkedin.svg" alt="linkedin"></a>
-                    <a href="#"><img src="/img/icon-git-hub.svg" alt="github"></a>
-                </div>
-            </div>
-        </article>
-    </section>
-    </main>
-    <footer>
-        <p>Breno. Alguns direitos reservados</p>
+            </p>
+          </div>
+          <div class="cargos-tecnologias">
+            <h2 class="cargo">Projeto de Estudo</h2>
+            <span class="tecnologias">html</span>
+            <span class="tecnologias">css</span>
+            <span class="tecnologias">javascript</span>
+            <span class="tecnologias">UI Design</span>
+          </div>
         </div>
-    </footer>
+
+        <div class="minhas-experiencias">
+          <span class="ano">2024</span>
+          <div class="projeto-descricao">
+            <h2 class="empresa">Wikipedia Simplificado</h2>
+            <p class="empresa-definicao">Recriando uma versão simplificada do Wikipedia, com 4 artigos sobre Videogames, um projeto pra colocar em prática tags aprendidas durante o curso de formação HTML da DIO<br><a href="https://brenoaug.github.io/trilha-html-modulo-3/" target="_blank" rel="noopener noreferrer">Ver Projeto</a></p>
+          </div>
+          <div class="cargos-tecnologias">
+            <h2 class="cargo">Projeto de Estudo</h2>
+            <span class="tecnologias">html</span>
+            <span class="tecnologias">css</span>
+          </div>
+        </div>
+
+        <div class="minhas-experiencias">
+          <span class="ano">2024</span>
+          <div class="projeto-descricao">
+            <h2 class="empresa">Contribuindo em um Projeto Open Source no GitHub</h2>
+            <p class="empresa-definicao">Aprendi a como contribuir em um projeto Open Source no GitHub, usando como exemplo o projeto dio-lab-open-source, no qual tive que criar um Profile README.<br><a href="https://github.com/brenoaug/dio-lab-open-source" target="_blank" rel="noopener noreferrer">Ver Projeto no GitHub</a></p>
+          </div>
+          <div class="cargos-tecnologias">
+            <h2 class="cargo">Projeto de Estudo</h2>
+            <span class="tecnologias">git</span>
+            <span class="tecnologias">github</span>
+          </div>
+        </div>
+        <div class="minhas-experiencias">
+          <span class="ano">2024</span>
+          <div class="projeto-descricao">
+            <h2 class="empresa">Gerador de Frases Poéticas</h2>
+            <p class="empresa-definicao">É um criador de frases poéticas, que utiliza as APIs da OpenAI para gerar textos personalizados e do Unsplash para selecionar imagens de fundo. Um projeto simples pra introdução em JavaScript e ter de antemão uma introdução ao funcionamento de uma IA e como adicionar ela em projetos.<br><a href="https://brenoaug.github.io/poetic-phrase-generator/" target="_blank" rel="noopener noreferrer">Ver Projeto</a></p>
+          </div>
+          <div class="cargos-tecnologias">
+            <h2 class="cargo">Projeto de Estudo</h2>
+            <span class="tecnologias">HTML</span>
+            <span class="tecnologias">CSS</span>
+            <span class="tecnologias">JavaScript</span>
+            <span class="tecnologias">IA</span>
+          </div>
+      </div>
+  </section>
+
+  <section id="formacao">
+    <article class="formacao-container">
+      <h1>Formação_</h1>
+      <div>
+        <p>A minha atual experiência acadêmica é a realização do curso de <strong>Análise e Desenvolvimento de Sistemas</strong> pelo <strong>Centro Universitário União das Américas Descomplica</strong>. Além disso me mantenho sempre atualizado com cursos intensivos online.</p>
+
+        <div class="minhas-formacoes">
+          <div class="quadro-formacao">
+            <h3 class="formacao-tipo">Bacharel</h3>
+            <h2 class="formacao-curso">Odontologia</h2>
+            <p class="formacao-instituicao">UFMA</p>
+          </div>
+          <div class="quadro-formacao">
+            <h3 class="formacao-tipo">Técnologo</h3>
+            <h2 class="formacao-curso">Análise e Desenvolvimento de Sistemas</h2>
+            <p class="formacao-instituicao">UniDesco</p>
+          </div>
+        </div>
+        <div class="cursos">
+          <h2>Cursos intensivos</h2>
+          <ul>
+            <li>
+              <h3>Front-End para Iniciantes</h3>
+              <p>Origamid/56h</p>
+            </li>
+            <li>
+              <h3>UX/UI Design</h3>
+              <p>Origamid/72h</p>
+            </li>
+          </ul>
+          <h2>Idiomas</h2>
+          <ul>
+            <li>
+              <h3>Inglês</h3>
+              <p>Básico</p>
+            </li>
+            <li>
+              <h3>Espanhol</h3>
+              <p>Básico</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </section>
+  <footer>
+    <span class="detalhe-footer"><img src="./assets/img/detail.svg" alt="detalhe" width="60"></span>
+    <section id="contato">
+      <article class="contato-container">
+        <p>Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa 👋</p>
+        <div class="meus-contatos">
+          <a href="mailto:breaugustocp@outlook.com?subject=Contato para Projetos&body=Estou entrando em contato para...">breaugustocp@outlook.com</a>
+          <a a href="tel:+5598987288497">(98) 9 98728-8497</a>
+
+          <div class="redes-sociais">
+            <a href="https://www.instagram.com/breaugustocp/" target="_blank" rel="noopener noreferrer"><img src="/assets/img/icon-instagram.svg" alt="instagram"></a>
+            <a href="https://www.linkedin.com/in/breaugustocp/" target="_blank" rel="noopener noreferrer"><img src="/assets/img/icon-linkedin.svg" alt="linkedin"></a>
+            <a href="https://github.com/brenoaug" target="_blank" rel="noopener noreferrer"><img src="assets/img/icon-git-hub.svg" alt="github"></a>
+          </div>
+        </div>
+      </article>
+    </section>
+    <p class="direitos">Breno. Alguns direitos reservados</p>
+  </footer>
+
 </body>
 
 </html>
