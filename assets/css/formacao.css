@@ -1,0 +1,124 @@
+#formacao{
+  background-color: var(--bg-cor-escura);
+  padding-top: 20px;
+}
+
+.formacao-container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  padding: 2.5rem 7.5rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 6.25rem;
+  margin-top: 40px;
+}
+
+
+#formacao h1 {
+  font-family: var(--fonte-titulos-principais);
+  color: var(--cor-titulo-escuro);
+  font-size: 3rem;
+  line-height: 1.125;
+  grid-template-columns: 1/2;
+}
+
+#formacao p {
+  color: var(--cor-texto-paragrafo-claro);
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 500px;
+}
+
+#formacao p strong {
+  color: #fff;
+}
+
+
+.minhas-formacoes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.minhas-formacoes .quadro-formacao {
+    background-color: #090909;
+    padding: 20px;
+    border: 1px solid #041804;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    width: 150px;
+    height: 160px;
+
+}
+
+.formacao-tipo{
+  color: var(--cor-texto-paragrafo-claro);
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.formacao-curso{
+  flex: 1;
+  color: var(--cor-texto-paragrafo-claro);
+  font-size: 1.125rem;
+  line-height: 1.2;
+}
+
+.formacao-instituicao{
+  color: var(--cor-texto-paragrafo-claro);
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0;
+}
+
+.cursos{
+  margin-top: 50px
+}
+
+.cursos ul li{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.cursos h2{
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #8F8F8F;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  display: relative;
+}
+
+/*.cursos h2::before{
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background-color: linear-gradient(#8B9469, #364822);
+  position: absolute;
+  top: 20px;
+  left: -4px;
+}*/
+
+.cursos h3{
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--cor-titulo-claro);
+  padding: 10px 0px;
+}
+
+.cursos ul li p{
+  font-size: 0.5rem;
+  color: #8F8F8F;
+  text-align: end;
+  align-self: center;
+}
