@@ -19,7 +19,7 @@
   align-items: center;
 }
 
-.experiencia-container p {
+.experiencia-resumo {
   font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 60px;
@@ -87,4 +87,28 @@
   margin-bottom: 5px;
   margin-right: 5px;
   border-radius: 4px;
+}
+
+@media (max-width: 950px) {
+  .experiencia-container {
+    gap: 3.125rem;
+    grid-template-columns: 1fr;
+  }
+
+  .experiencia-container h1 {
+    font-size: 2.25rem;
+    line-height: 1.125;
+  }
+  .experiencia-resumo {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 850px){
+  .minhas-experiencias {
+    display: flex;
+    flex-direction: column;
+  }
 }

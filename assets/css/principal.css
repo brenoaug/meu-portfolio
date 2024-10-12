@@ -33,3 +33,53 @@
   font-size: 1rem;
   padding: 1.375rem 0rem;
 }
+
+@media (max-width: 950px){
+  #principal {;
+    gap: 3.125rem;
+  }
+  #principal h1 {
+    font-size: 3rem;
+    line-height: 1.125;
+  }
+  #foto-perfil img{
+    width: 200px;
+  }
+  .detalhe{
+    width: 40px;
+  }
+}
+
+@media (max-width: 790px){
+  #principal h1 {
+    font-size: 2rem;
+    line-height: 1.125;
+  }
+  #
+}
+
+@media (max-width: 650px){
+  #principal{
+    grid-template-columns: 1fr;
+  }
+  #foto-perfil{
+    position: absolute;
+    right: 90px;
+    bottom: 150px;
+  }
+  #principal h1 {
+    position: relative;
+  }
+  #foto-perfil img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 590px){
+  #foto-perfil{
+    display: none;
+  }
+}

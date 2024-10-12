@@ -55,3 +55,25 @@ footer{
   top: -20px;
 }
 
+@media (max-width: 920px){
+  .contato-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .direitos {
+    text-align: center;
+  }
+  .meus-contatos a{
+    font-size: 1rem;
+  }
+  .redes-sociais a img{
+    width: 40px;
+  }
+}
+
+@media (max-width: 600px){
+  .contato-container p{
+    font-size: 0.875rem;
+  }
+}

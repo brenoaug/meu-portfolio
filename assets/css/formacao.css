@@ -24,14 +24,13 @@
   grid-template-columns: 1/2;
 }
 
-#formacao p {
+.formacao-resumo {
   color: var(--cor-texto-paragrafo-claro);
   font-size: 1rem;
   line-height: 1.5;
-  max-width: 500px;
 }
 
-#formacao p strong {
+.formacao-resumo strong {
   color: #fff;
 }
 
@@ -98,17 +97,6 @@
   display: relative;
 }
 
-/*.cursos h2::before{
-  content: "";
-  display: block;
-  width: 4px;
-  height: 20px;
-  background-color: linear-gradient(#8B9469, #364822);
-  position: absolute;
-  top: 20px;
-  left: -4px;
-}*/
-
 .cursos h3{
   font-size: 1.125rem;
   font-weight: 500;
@@ -117,8 +105,89 @@
 }
 
 .cursos ul li p{
-  font-size: 0.5rem;
+  font-size: 1rem;
   color: #8F8F8F;
   text-align: end;
   align-self: center;
+}
+@media (max-width: 1040px){
+  .cursos ul li{
+    display:block;
+  }
+
+  .cursos ul li p{
+    color: #8F8F8F;
+    text-align: start;
+    align-self: start;
+  }
+}
+
+@media (max-width: 950px) {
+
+  .formacao-container {
+    gap: 3.125rem;
+    grid-template-columns: 1fr;
+  }
+
+  #formacao h1 {
+    font-size: 2.25rem;
+    line-height: 1.125;
+  }
+
+  .minhas-formacoes {
+    gap: 1.875rem;
+    margin-top: 3.125rem;
+  }
+
+
+  .formacao-curso {
+    font-size: 1rem;
+  }
+
+  .formacao-tipo {
+    font-size: 0.75rem;
+  }
+
+  .formacao-instituicao {
+    font-size: 0.75rem;
+  }
+
+  .cursos h2 {
+    font-size: 0.75rem;
+  }
+
+  .cursos h3 {
+    font-size: 1rem;
+  }
+
+  .cursos ul li p {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 750px){
+
+  .formacao-resumo{
+    font-size: 1rem;
+  }
+
+  .minhas-formacoes .quadro-formacao {
+    width: 100px;
+    height: 75px;
+    padding: 10px;
+  }
+
+  .formacao-tipo{
+    font-size: 0.625rem;
+  }
+  .formacao-curso{
+    font-size: 0.675rem;
+  }
+  .formacao-instituicao{
+    display: none;
+  }
+
+  .cursos h3{
+    font-size: 0.875rem;
+  }
 }
