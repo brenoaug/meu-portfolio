@@ -127,6 +127,7 @@
   .formacao-container {
     gap: 3.125rem;
     grid-template-columns: 1fr;
+    padding: 2.5rem 5rem;
   }
 
   #formacao h1 {

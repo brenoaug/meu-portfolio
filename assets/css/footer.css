@@ -56,6 +56,10 @@ footer{
 }
 
 @media (max-width: 920px){
+  #contato{
+    gap: 3.125rem;
+    padding: 2.5rem 2.5rem;
+  }
   .contato-container{
     display: flex;
     flex-direction: column;

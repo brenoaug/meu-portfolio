@@ -93,6 +93,8 @@
   .experiencia-container {
     gap: 3.125rem;
     grid-template-columns: 1fr;
+    padding: 2.5rem 2.5rem 2.5rem 5rem;
+    
   }
 
   .experiencia-container h1 {
@@ -110,5 +112,11 @@
   .minhas-experiencias {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 650px) {
+  .cargos-tecnologias{
+    display: none;
   }
 }
