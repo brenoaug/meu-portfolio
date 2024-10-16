@@ -192,3 +192,12 @@
     font-size: 0.875rem;
   }
 }
+
+@media (max-width: 500px){
+  #formacao{
+    padding: 0;
+  }
+  .formacao-container{
+    padding: 2.5rem 2rem;
+  }
+}

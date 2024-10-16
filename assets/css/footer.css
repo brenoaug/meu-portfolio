@@ -77,7 +77,22 @@ footer{
 }
 
 @media (max-width: 600px){
+  .detalhe-footer img{
+    position: relative;
+    width: 40px;
+    top: 7px; 
+    left: -40px;  
+  }
+  .contato-container{
+    margin-top: 40px;
+  }
   .contato-container p{
     font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 500px) {
+  #contato{
+    padding: 0rem 2rem;
   }
 }

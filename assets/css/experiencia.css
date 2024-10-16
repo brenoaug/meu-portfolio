@@ -46,7 +46,6 @@
   flex: 1;
 }
 
-
 .projeto-descricao {
   grid-column: 1/2;
 }
@@ -57,7 +56,6 @@
   padding-bottom: 10px;
   position: relative;
 }
-
 
 #experiencia .minhas-experiencias .projeto-descricao .empresa-definicao {
   font-size: 0.875rem;
@@ -94,7 +92,6 @@
     gap: 3.125rem;
     grid-template-columns: 1fr;
     padding: 2.5rem 2.5rem 2.5rem 5rem;
-    
   }
 
   .experiencia-container h1 {
@@ -108,7 +105,7 @@
   }
 }
 
-@media (max-width: 850px){
+@media (max-width: 850px) {
   .minhas-experiencias {
     display: flex;
     flex-direction: column;
@@ -116,7 +113,19 @@
 }
 
 @media (max-width: 650px) {
-  .cargos-tecnologias{
+  .cargos-tecnologias {
     display: none;
+  }
+  .ano {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  #experiencia {
+    padding: 0;
+  }
+  .experiencia-container {
+    padding: 2.5rem 2rem;
   }
 }
